@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="controller.CatalogueController"
+        prefWidth="800" alignment="center" spacing="10" styleClass="root">
+	
+	<HBox alignment="center_left" spacing="10">
+        <ImageView>
+            <image>
+                <Image url="@game_icon.png"/>
+            </image>
+        </ImageView>
+        <Label text="Catalogue" styleClass="h1"/>
+    </HBox>
+    
+    <HBox alignment="center_left" spacing="10">
+        <VBox alignment="center_left" spacing="10">
+            <Label text="View Games:" styleClass="h2"/>
+            <Button text="All Games" styleClass="menuButton" onAction="#handleViewAllGames"/>
+            <Button text="Available Games" styleClass="menuButton" onAction="#handleViewAvailableGames"/>
+            <Button text="Games by Genre" styleClass="menuButton" onAction="#handleViewGamesByGenre"/>
+            <Button text="Games by Year" styleClass="menuButton" onAction="#handleViewGamesByYear"/>
+        </VBox>
+        <Button text="${'Rent a\nGame'}" styleClass="largeButton" onAction="#handleViewRentGame"/>
+        <Button text="${'Return a\nGame'}" styleClass="largeButton" onAction="#handleViewReturnGame"/>
+    </HBox>
+    
+    <Button text="Exit" styleClass="button" onAction="#handleExit"/>
+    
+    <stylesheets>
+        <URL value="@kiosk.css"/>
+    </stylesheets>
+</VBox>
