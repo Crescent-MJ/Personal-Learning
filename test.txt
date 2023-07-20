@@ -1,0 +1,24 @@
+The Enigma cipher was a cryptographic machine used during World War II for secure communication 
+by the German military. It was developed in the 1920s and 1930s and was primarily designed to encrypt and decrypt messages.
+
+The Enigma machine consisted of a series of rotors, an entry wheel, a reflector, and a keyboard. Each rotor had 26 contacts 
+representing the letters of the alphabet. When a key on the keyboard was pressed, an electrical signal was passed through 
+the rotors, creating an encryption pathway. The signal would enter a rotor, pass through a series of contacts, reflect off 
+the reflector, and then return through the rotors in a different pathway to illuminate a lamp indicating the encrypted letter.
+
+The key aspect of the Enigma machine was its ability to scramble the electrical pathway through the rotors with each key press. 
+The rotors would rotate after each key press, altering the electrical connections and changing the encryption pattern. 
+This made the cipher more complex and harder to break.
+
+To decrypt a message encrypted with the Enigma machine, the recipient would need to have an Enigma machine set up with 
+the same rotor settings and starting positions as the sender. By typing the encrypted message on the keyboard, the recipient 
+would observe the decrypted message on the illuminated lamps.
+
+During World War II, breaking the Enigma cipher was a significant challenge for the Allies. However, through the efforts of codebreakers, 
+including notable figures like Alan Turing at Bletchley Park, the British were able to decipher Enigma-encrypted messages. 
+The success in breaking the Enigma code played a crucial role in intelligence gathering and ultimately contributed to the Allied victory.
+
+The Enigma cipher is considered a historically significant encryption machine and an important milestone in the development of cryptography. 
+It demonstrated the need for stronger encryption methods and paved the way for subsequent cryptographic advancements.
+
+
